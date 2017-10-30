@@ -1,0 +1,23 @@
+<md-toolbar color="accent">
+  <button md-raised-button color="warn" routerLinkActive="active" (click)="goBack()">
+    <span>Back</span>
+  </button>
+</md-toolbar>
+<div class="container"  
+     fxLayout="row"
+     fxLayout.sm="column"
+     fxLayout.xs="column"
+     fxLayoutAlign.gt-md="space-around top"
+     fxLayoutGap="10px">
+
+<div fxFlex class="list" >
+  <h2 >List of incidents of the current map</h2>   
+  <md-list class="scrollable" >
+        <md-list-item *ngFor="let marker of visibleIncidents" >
+        <h1 md-line> Type: {{marker.alert_type}} </h1>
+        <p md-line><span> Title: {{marker.list_title}} </span></p>       
+        </md-list-item>
+  </md-list>
+</div>
+
+</div>

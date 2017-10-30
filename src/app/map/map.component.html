@@ -1,0 +1,59 @@
+<md-toolbar color="accent">
+  <h2 fxHide.sm fxHide.xs >
+    <b><span>{{title}}</span></b>
+  </h2>
+  <button fxHide fxHide.sm="false" fxHide.xs="false"           
+          md-raised-button color="warn" 
+          routerLink="/list" routerLinkActive="active">
+    <span >LIST({{numberOfIncidents}})</span>
+  </button>
+</md-toolbar>
+
+<div class="container"  
+     fxLayout="row"
+     fxLayout.sm="column"
+     fxLayout.xs="column"
+     fxLayoutAlign.gt-md="space-around top"
+     fxLayoutGap="10px">
+     
+<!-- list of visible markers area  -->     
+<div fxFlex="35%"  fxHide.sm fxHide.xs >
+  <h2 >{{resultsFound}}</h2>    
+  <md-list id="listSection" class="scrollable section" 
+           ng2-scrollable (elementVisible)="scrollEvent()" >   
+    <md-list-item id= "{{'s' +  marker.id}}" 
+                  *ngFor="let marker of visibleIncidents"
+                  [ngStyle]="setStyles('s' +  marker.id)"  >
+        <h1 md-line> Type: {{marker.alert_type}} </h1>
+        <p md-line> Title: {{marker.list_title}} </p>
+    </md-list-item>              
+  </md-list>  
+</div>
+<h1 *ngIf ="errMsg"> Error: {{errMsg}} </h1>
+
+<!-- googlemap area  -->
+<div fxFlex="60%" fxFlex.xs="100%">
+  <agm-map #gm
+      (mapReady)='loadAPIWrapper($event)'
+      (idle)="ChangeMap($event)" 
+      [latitude]="lat" 
+      [longitude]="lng"
+      [zoom]="zoom"
+      [disableDefaultUI] = false
+      [zoomControl]="true" >          
+    <agm-marker 
+      *ngFor ="let marker of incidents; let i=index "
+      [class.current]="id == 's'+ marker.id " 
+      [latitude]="marker.lat" 
+      [longitude]="marker.long"
+      (markerClick)= "gm.lastOpen?.close(); gm.lastOpen = infoWindow;  
+      scrollTo('#s'+ marker.id, '#listSection'); selected('s'+ marker.id);" >  
+        <agm-info-window #infoWindow> 
+          <strong>Type: {{marker.alert_type}}</strong>
+          <p>Title: {{marker.list_title}}</p>      
+          <p>Descripttion: {{marker.description}}</p>
+        </agm-info-window>  
+    </agm-marker>  
+  </agm-map>
+</div>
+
