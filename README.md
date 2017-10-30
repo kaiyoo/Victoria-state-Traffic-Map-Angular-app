@@ -1,27 +1,34 @@
-# TrafficMapApp
+[Getting Started]
+Building environment
+-	Angular2, Typescript, Lite-server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.8.
 
-## Development server
+[Building instruction]
+1.	Please use the security-disabled-chrome for this app by either way of the following. (see the Issue-Access Control Allow Original)
+  a.	Chrome extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
+  b.	Chrome –disable-web-security 
+    b-1. Copy the shortcut icon of Chrome in Desktop
+    b-2. Rename it differently. 
+    b-3. Right click => properties
+    b-4. in [Shortcut]=>Target, set it to 
+         "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2.	Extract the folder (TrafficMapApp) to your favourable location. (i.e. D://).
+3.	Open CMD and go to the directory location (i.e. D://trafficMapApp).
+4.	Enter “ng serve” or “npm start”. 
+5.	Open the Security disabled Chrome browser or Chrome browser with Allow-Control-Allow-Origin extension, and type “localhost:4200”
 
-## Code scaffolding
+  
+[Issue]
+Access Control Allow Origin
+-	Could not fetch the data from the API address provided because of Access Control Allow Origin policy issue. 
+-	Tried proxy configuration, enabling CORS in the setting file, and using JSONP instead of HTTP, but did not work. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Desktop and Mobile screen views images can be seen here:
+https://drive.google.com/open?id=0B5KkAdCYDZb2aS1CLXdGTzRyejQ
+https://drive.google.com/open?id=0B5KkAdCYDZb2MWY5ZUpueThGdUk
+https://drive.google.com/open?id=0B5KkAdCYDZb2N0lEYkF5dm8tc3M
+https://drive.google.com/open?id=0B5KkAdCYDZb2Zi1NUHhUcE9jT2s
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
