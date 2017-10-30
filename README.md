@@ -26,7 +26,7 @@ Desktop and Mobile screen views images can be seen here:
   https://drive.google.com/open?id=0B5KkAdCYDZb2aS1CLXdGTzRyejQ  
   https://drive.google.com/open?id=0B5KkAdCYDZb2MWY5ZUpueThGdUk 
     
-  https://drive.google.com/open?id=0B5KkAdCYDZb2N0lEYkF5dm8tc3M
+  https://drive.google.com/open?id=0B5KkAdCYDZb2N0lEYkF5dm8tc3M  
   https://drive.google.com/open?id=0B5KkAdCYDZb2Zi1NUHhUcE9jT2s 
   
 
