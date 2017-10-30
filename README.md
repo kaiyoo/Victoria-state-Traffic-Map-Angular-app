@@ -22,11 +22,10 @@ Access Control Allow Origin
 -	Tried proxy configuration, enabling CORS in the setting file, and using JSONP instead of HTTP, but did not work. 
 
 Desktop and Mobile screen views images can be seen here:
-  [desktop]:  
+  
   https://drive.google.com/open?id=0B5KkAdCYDZb2aS1CLXdGTzRyejQ  
   https://drive.google.com/open?id=0B5KkAdCYDZb2MWY5ZUpueThGdUk 
-  
-  [mobile]:
+    
   https://drive.google.com/open?id=0B5KkAdCYDZb2N0lEYkF5dm8tc3M
   https://drive.google.com/open?id=0B5KkAdCYDZb2Zi1NUHhUcE9jT2s 
   
