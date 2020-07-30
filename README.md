@@ -1,6 +1,6 @@
 ## [1] Overview
-This mini project was a Single-Page Application (SPA) that shows details and locations of traffic incidents that took place in Victoria state.
-https://drive.google.com/file/d/0B5KkAdCYDZb2MWY5ZUpueThGdUk/view
+This mini project was a Single-Page Application (SPA) that shows:
+Details and locations of traffic incidents that took place in Victoria state using API provided by Victoria state government.
 
 
 ## [2] Preview
