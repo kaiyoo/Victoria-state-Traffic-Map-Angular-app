@@ -3,11 +3,11 @@ This mini project was a Single-Page Application (SPA) that shows details and loc
 https://drive.google.com/file/d/0B5KkAdCYDZb2MWY5ZUpueThGdUk/view
 
 
-[Getting Started]
-Building environment
+## [2] Building environment
 -	Angular2, Typescript, Lite-server
 
-[Building instruction]
+## [2] Building instruction
+
 1.	Please use the security-disabled-chrome for this app by either way of the following. (see the Issue-Access Control Allow Original)
   a.	Chrome extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
   b.	Chrome –disable-web-security 
