@@ -4,8 +4,16 @@ https://drive.google.com/file/d/0B5KkAdCYDZb2MWY5ZUpueThGdUk/view
 
 
 ## [2] Preview
+- For Desktop view:
+desktopview.PNG, desktopview_markerclicked.PNG
+
 ![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview.PNG?raw=true)
 
+- When marker was clicked:
+![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview_markerclicked.PNG?raw=true)
+
+- For mobile view:
+mobileview_list.PNG, mobileview_map.PNG
 
 
 ## [3] Building environment
@@ -38,10 +46,3 @@ Desktop and Mobile screen views images can be seen here:
     
   https://drive.google.com/open?id=0B5KkAdCYDZb2N0lEYkF5dm8tc3M  
   https://drive.google.com/open?id=0B5KkAdCYDZb2Zi1NUHhUcE9jT2s 
-  
-
-
-
-
-
-
