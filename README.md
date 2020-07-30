@@ -3,10 +3,15 @@ This mini project was a Single-Page Application (SPA) that shows details and loc
 https://drive.google.com/file/d/0B5KkAdCYDZb2MWY5ZUpueThGdUk/view
 
 
-## [2] Building environment
+## [2] Preview
+![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview.PNG?raw=true)
+
+
+
+## [3] Building environment
 -	Angular2, Typescript, Lite-server
 
-## [2] Building instruction
+## [4] Building instruction
 
 1.	Please use the security-disabled-chrome for this app by either way of the following. (see the Issue-Access Control Allow Original)
   a.	Chrome extension: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi
