@@ -1,3 +1,8 @@
+## [1] Overview
+This mini project was a Single-Page Application (SPA) that shows details and locations of traffic incidents that took place in Victoria state.
+https://drive.google.com/file/d/0B5KkAdCYDZb2MWY5ZUpueThGdUk/view
+
+
 [Getting Started]
 Building environment
 -	Angular2, Typescript, Lite-server
