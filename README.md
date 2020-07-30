@@ -1,19 +1,17 @@
 ## [1] Overview
-This mini project was a Single-Page Application (SPA) that shows:
-Details and locations of traffic incidents that took place in Victoria state using API provided by Victoria state government.
+This mini project was a Single-Page Application (SPA) that shows details and locations of traffic incidents that took place in Victoria state using API provided by Victoria state government.
 
 
 ## [2] Preview
 - For Desktop view:
 desktopview.PNG, desktopview_markerclicked.PNG
+- For mobile view:
+mobileview_list.PNG, mobileview_map.PNG
 
 ![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview.PNG?raw=true)
 
-- When marker was clicked:
+When marker was clicked:
 ![alt text](https://github.com/kaiyoo/Traffic-Map-App/blob/master/desktopview_markerclicked.PNG?raw=true)
-
-- For mobile view:
-mobileview_list.PNG, mobileview_map.PNG
 
 
 ## [3] Building environment
